@@ -479,3 +479,13 @@ $(function () {
         }
     }).trigger("resize");
 })(jQuery);
+
+setTimeout(function(){
+  $('message').fadeOut('slow');
+}, '4000');
+// 
+// function fadeoutfunction(){
+//  setTimeout(function(){
+//     $('[id$=messages]').fadeOut();
+//  },'5000');
+// }
